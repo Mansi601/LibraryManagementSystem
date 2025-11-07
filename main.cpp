@@ -364,10 +364,10 @@ public:
         string title, author;
 
         cin.ignore();
-        cout<<"Enter author: ";
-        getline(cin,author);
         cout<<"Enter title: ";
         getline(cin,title);
+        cout<<"Enter author: ";
+        getline(cin,author);
 
         ifstream bookFile("books.txt");
         ofstream temp("temp.txt");
@@ -894,4 +894,5 @@ int main()
                 break;
         }
     }while(ch!=0);  
+
 }
