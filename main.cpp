@@ -878,7 +878,7 @@ int main()
         LINE;
         width(50);cout<<"LIBRARY MANAGEMENT SYSTEM"<<endl;
         LINE;
-        cout<<"1.Login"<<endl;
+        cout<<endl<<"1.Login"<<endl;
         cout<<"0.exit"<<endl;
         cout<<"Enter Choice: ";
         cin>>ch;
@@ -896,3 +896,4 @@ int main()
     }while(ch!=0);  
 
 }
+
