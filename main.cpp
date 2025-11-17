@@ -26,12 +26,12 @@ Column bookColumns[] = {
 template<class T>
 
 void printColumn(const T &text, const Column &col) {
-    std::string s = text;  
+    string s = text;  
     cout << text;
     int len = s.length();
     for (int i = len; i < col.width; i++)
         cout << ' ';
-}//no need for char *text
+}
 
 class Library;
 
@@ -896,4 +896,5 @@ int main()
     }while(ch!=0);  
 
 }
+
 
